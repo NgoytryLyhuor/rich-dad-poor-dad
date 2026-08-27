@@ -163,6 +163,13 @@ h1, h2, h3, h4, h5, h6, .font-display {
   border: 1px solid var(--accent);
 }
 
+.gold-gradient-text {
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 .hero-section {
   position: relative;
   overflow: hidden;
