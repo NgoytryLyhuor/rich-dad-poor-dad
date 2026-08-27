@@ -1,7 +1,7 @@
 <template>
   <div class="fade-up space-y-6">
     <div class="mb-2">
-      <p class="gold-badge mb-3">CASHFLOW QUADRANT</p>
+      <p class="tag-badge mb-3">CASHFLOW QUADRANT</p>
       <h2 class="text-2xl md:text-3xl font-display font-black" :style="{ color: 'var(--text-heading)' }">
         {{ t('ចរន្តសាច់ប្រាក់ ៤ ស្ថានភាព', 'Cashflow Quadrant') }}
       </h2>
@@ -18,7 +18,7 @@
         :style="{ borderColor: q.color, '--tw-ring-color': q.color }"
         @click="selected = q.letter">
         <div class="flex items-center gap-3 mb-3">
-          <div class="w-12 h-12 rounded-xl flex items-center justify-center text-xl font-display font-black"
+          <div class="w-12 h-12 sharp flex items-center justify-center text-xl font-display font-black"
             :style="{ background: q.bg, color: q.color }">{{ q.letter }}</div>
           <div>
             <p class="font-bold text-sm" :style="{ color: q.color }">{{ t(q.kmTitle, q.enTitle) }}</p>
@@ -40,7 +40,7 @@
         {{ t(selectedQ.kmDetail, selectedQ.enDetail) }}
       </p>
       <div class="flex items-center gap-2">
-        <span class="text-[10px] font-bold px-2 py-1 rounded-full" :style="{ background: selectedQ.bg, color: selectedQ.color }">
+        <span class="text-[10px] font-bold px-2 py-1 sharp" :style="{ background: selectedQ.bg, color: selectedQ.color }">
           {{ t('សម្គាល់', 'NOTE') }}
         </span>
         <p class="text-xs" :style="{ color: 'var(--text-muted)' }">{{ t(selectedQ.kmNote, selectedQ.enNote) }}</p>
@@ -51,11 +51,11 @@
     <div class="card text-center" style="padding: 2rem">
       <p class="section-title">{{ t('ទិសដៅដែលអ្នកគួរទៅ', 'DIRECTION TO GO') }}</p>
       <div class="flex items-center justify-center gap-3 text-lg font-bold mt-4">
-        <span class="px-4 py-2 rounded-xl" :style="{ background: 'var(--red-light)', color: 'var(--red)' }">E</span>
+        <span class="px-4 py-2 sharp" :style="{ background: 'var(--red-light)', color: 'var(--red)' }">E</span>
         <span class="text-2xl" :style="{ color: 'var(--text-label)' }">&#8594;</span>
-        <span class="px-4 py-2 rounded-xl" :style="{ background: 'var(--blue-light)', color: 'var(--blue)' }">B</span>
+        <span class="px-4 py-2 sharp" :style="{ background: 'var(--blue-light)', color: 'var(--blue)' }">B</span>
         <span class="text-2xl" :style="{ color: 'var(--text-label)' }">&#8594;</span>
-        <span class="px-4 py-2 rounded-xl" :style="{ background: 'var(--gold-light)', color: 'var(--gold)' }">I</span>
+        <span class="px-4 py-2 sharp" :style="{ background: 'var(--gold-light)', color: 'var(--gold)' }">I</span>
       </div>
       <p class="text-xs mt-3" :style="{ color: 'var(--text-muted)' }">
         {{ t('ផ្លាស់ប្តូរពី E (បុគ្គលិក) → B (ម្ចាស់អាជីវកម្ម) → I (អ្នកវិនិយោគ)', 'Move from Employee → Business Owner → Investor') }}

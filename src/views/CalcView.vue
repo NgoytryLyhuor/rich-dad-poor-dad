@@ -1,7 +1,7 @@
 <template>
   <div class="fade-up space-y-6">
     <div class="mb-2">
-      <p class="gold-badge mb-3">ASSET CALCULATOR</p>
+      <p class="tag-badge mb-3">ASSET CALCULATOR</p>
       <h2 class="text-2xl md:text-3xl font-display font-black" :style="{ color: 'var(--text-heading)' }">
         {{ t('គណនាចំណូលពីទ្រព្យ', 'Asset Income Calculator') }}
       </h2>

@@ -1,7 +1,7 @@
 <template>
   <div class="fade-up space-y-6">
     <div class="mb-2">
-      <p class="gold-badge mb-3">CORE CONCEPT</p>
+      <p class="tag-badge mb-3">CORE CONCEPT</p>
       <h2 class="text-2xl md:text-3xl font-display font-black" :style="{ color: 'var(--text-heading)' }">
         {{ t('ទ្រព្យ vs បំណុល', 'Assets vs Liabilities') }}
       </h2>
@@ -12,7 +12,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <!-- Assets -->
         <div class="text-center">
-          <div class="w-20 h-20 rounded-2xl mx-auto mb-4 flex items-center justify-center text-3xl" :style="{ background: 'var(--gold-light)' }">
+          <div class="w-20 h-20 sharp mx-auto mb-4 flex items-center justify-center text-3xl" :style="{ background: 'var(--gold-light)' }">
             &#8593;
           </div>
           <h3 class="text-xl font-display font-black mb-2" :style="{ color: 'var(--gold)' }">
@@ -29,7 +29,7 @@
         </div>
         <!-- Liabilities -->
         <div class="text-center">
-          <div class="w-20 h-20 rounded-2xl mx-auto mb-4 flex items-center justify-center text-3xl" :style="{ background: 'var(--red-light)' }">
+          <div class="w-20 h-20 sharp mx-auto mb-4 flex items-center justify-center text-3xl" :style="{ background: 'var(--red-light)' }">
             &#8595;
           </div>
           <h3 class="text-xl font-display font-black mb-2" :style="{ color: 'var(--red)' }">
@@ -61,7 +61,7 @@
     <div class="card">
       <p class="section-title">{{ t('ប្រៀបធៀបចរន្តសាច់ប្រាក់', 'CASHFLOW COMPARISON') }}</p>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3">
-        <div class="p-4 rounded-xl" :style="{ background: 'var(--red-light)' }">
+        <div class="p-4 sharp" :style="{ background: 'var(--red-light)' }">
           <p class="text-xs font-bold mb-3" :style="{ color: 'var(--red)' }">{{ t('មនុស្សក្រ', 'POOR PEOPLE') }}</p>
           <p class="text-sm" :style="{ color: 'var(--text-body)' }">
             {{ t('ចំណូល → បំណុល → ចំណាយ → បំណុល → ចំណាយ...', 'Income → Debt → Expenses → Debt → Expenses...') }}
@@ -70,7 +70,7 @@
             {{ t('រង្វង់អាក្រក់ដែលមិនដែលឈប់', 'A vicious cycle that never ends') }}
           </p>
         </div>
-        <div class="p-4 rounded-xl" :style="{ background: 'var(--gold-light)' }">
+        <div class="p-4 sharp" :style="{ background: 'var(--gold-light)' }">
           <p class="text-xs font-bold mb-3" :style="{ color: 'var(--gold)' }">{{ t('មនុស្សមាន', 'RICH PEOPLE') }}</p>
           <p class="text-sm" :style="{ color: 'var(--text-body)' }">
             {{ t('ចំណូល → ទ្រព្យ → ចំណូលពីទ្រព្យ → ទ្រព្យបន្ថែម...', 'Income → Assets → Asset Income → More Assets...') }}

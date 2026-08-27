@@ -1,7 +1,7 @@
 <template>
   <div class="fade-up space-y-6">
     <div class="mb-2">
-      <p class="gold-badge mb-3">MINDSET SHIFT</p>
+      <p class="tag-badge mb-3">MINDSET SHIFT</p>
       <h2 class="text-2xl md:text-3xl font-display font-black" :style="{ color: 'var(--text-heading)' }">
         {{ t('ផ្លាស់ប្តូរផ្លូវចិត្ត', 'Mindset Shifts') }}
       </h2>

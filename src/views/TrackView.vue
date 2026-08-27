@@ -1,7 +1,7 @@
 <template>
   <div class="fade-up space-y-6">
     <div class="mb-2">
-      <p class="gold-badge mb-3">ASSET TRACKER</p>
+      <p class="tag-badge mb-3">ASSET TRACKER</p>
       <h2 class="text-2xl md:text-3xl font-display font-black" :style="{ color: 'var(--text-heading)' }">
         {{ t('តាមដានទ្រព្យ និងបំណុល', 'Track Assets & Liabilities') }}
       </h2>
@@ -31,7 +31,7 @@
           <input type="number" v-model.number="form.income" step="10" class="input-field" placeholder="0" />
         </div>
       </div>
-      <button @click="addItem" class="btn-gold">{{ t('បន្ថែម', 'ADD') }}</button>
+      <button @click="addItem" class="btn-accent">{{ t('បន្ថែម', 'ADD') }}</button>
     </div>
 
     <!-- Summary -->

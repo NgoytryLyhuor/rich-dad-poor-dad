@@ -1,7 +1,7 @@
 <template>
   <div class="fade-up space-y-6">
     <div class="mb-2">
-      <p class="gold-badge mb-3">BOOK NOTES</p>
+      <p class="tag-badge mb-3">BOOK NOTES</p>
       <h2 class="text-2xl md:text-3xl font-display font-black" :style="{ color: 'var(--text-heading)' }">
         {{ t('សេចក្តីសង្ខេបសៀវភៅ', 'Complete Book Notes') }}
       </h2>
@@ -15,7 +15,7 @@
       <p class="section-title">{{ t('មាតិកា', 'TABLE OF CONTENTS') }}</p>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-1">
         <button v-for="(sec, i) in sections" :key="i" @click="scrollTo(i)"
-          class="text-left text-sm py-1.5 px-2 rounded transition cursor-pointer hover:opacity-80"
+          class="text-left text-sm py-1.5 px-2 sharp transition cursor-pointer hover:opacity-80"
           :style="{ color: 'var(--accent)' }">
           {{ i + 1 }}. {{ t(sec.kmTitle, sec.enTitle) }}
         </button>
@@ -25,7 +25,7 @@
     <!-- SECTIONS -->
     <div v-for="(sec, i) in sections" :key="i" :ref="el => sectionRefs[i] = el">
       <div class="flex items-center gap-2 mb-4">
-        <div class="w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold shrink-0"
+        <div class="w-8 h-8 sharp flex items-center justify-center text-sm font-bold shrink-0"
           :style="{ background: 'var(--gold-light)', color: 'var(--gold)' }">{{ i + 1 }}</div>
         <h3 class="text-xl font-display font-black" :style="{ color: 'var(--text-heading)' }">
           {{ t(sec.kmTitle, sec.enTitle) }}
@@ -50,14 +50,14 @@
           </div>
         </div>
 
-        <div v-if="sec.example" class="mt-4 p-4 rounded-lg" :style="{ background: 'var(--gold-light)' }">
+        <div v-if="sec.example" class="mt-4 p-4 sharp" :style="{ background: 'var(--gold-light)' }">
           <p class="text-[10px] uppercase tracking-widest font-bold mb-1" :style="{ color: 'var(--gold)' }">
             {{ t('ឧទាហរណ៍ពិត', 'REAL EXAMPLE') }}
           </p>
           <p class="text-sm" :style="{ color: 'var(--text-body)' }">{{ t(sec.example.km, sec.example.en) }}</p>
         </div>
 
-        <div v-if="sec.warning" class="mt-4 p-4 rounded-lg border-2 border-dashed" :style="{ borderColor: 'var(--red)' }">
+        <div v-if="sec.warning" class="mt-4 p-4 sharp border-2 border-dashed" :style="{ borderColor: 'var(--red)' }">
           <p class="text-[10px] uppercase tracking-widest font-bold mb-1" :style="{ color: 'var(--red)' }">
             {{ t('កំហុសដែលគេធ្វើញឹកញាប់', 'COMMON MISTAKE') }}
           </p>
@@ -69,7 +69,7 @@
     <!-- CHARACTERS -->
     <div>
       <div class="flex items-center gap-2 mb-4">
-        <div class="w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold shrink-0"
+        <div class="w-8 h-8 sharp flex items-center justify-center text-sm font-bold shrink-0"
           :style="{ background: 'var(--gold-light)', color: 'var(--gold)' }">&#9733;</div>
         <h3 class="text-xl font-display font-black" :style="{ color: 'var(--text-heading)' }">
           {{ t('តួអង្គសំខាន់ៗ', 'Key Characters') }}
@@ -86,7 +86,7 @@
     <!-- QUOTES -->
     <div>
       <div class="flex items-center gap-2 mb-4">
-        <div class="w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold shrink-0"
+        <div class="w-8 h-8 sharp flex items-center justify-center text-sm font-bold shrink-0"
           :style="{ background: 'var(--gold-light)', color: 'var(--gold)' }">"</div>
         <h3 class="text-xl font-display font-black" :style="{ color: 'var(--text-heading)' }">
           {{ t('ពាក្យសម្តីគន្លឹះ', 'Key Quotes') }}

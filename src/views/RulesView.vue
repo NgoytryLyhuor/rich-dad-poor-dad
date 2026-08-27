@@ -1,7 +1,7 @@
 <template>
   <div class="fade-up space-y-6">
     <div class="mb-2">
-      <p class="gold-badge mb-3">10 FINANCIAL RULES</p>
+      <p class="tag-badge mb-3">10 FINANCIAL RULES</p>
       <h2 class="text-2xl md:text-3xl font-display font-black" :style="{ color: 'var(--text-heading)' }">
         {{ t('ច្បាប់ហិរញ្ញវត្ថុ ១០យ៉ាង', '10 Financial Rules') }}
       </h2>
@@ -13,7 +13,7 @@
         <button @click="toggle(i)"
           class="w-full flex items-center justify-between text-left cursor-pointer">
           <div class="flex items-center gap-3">
-            <div class="w-9 h-9 rounded-lg flex items-center justify-center text-sm font-bold shrink-0"
+            <div class="w-9 h-9 sharp flex items-center justify-center text-sm font-bold shrink-0"
               :style="{ background: rule.bg, color: rule.color }">{{ i + 1 }}</div>
             <div>
               <p class="text-sm font-bold" :style="{ color: 'var(--text-heading)' }">{{ t(rule.kmTitle, rule.enTitle) }}</p>
@@ -28,7 +28,7 @@
           <p class="text-sm leading-relaxed mt-3 px-12" :style="{ color: 'var(--text-muted)' }">
             {{ t(rule.kmDesc, rule.enDesc) }}
           </p>
-          <div class="mt-3 mx-12 px-3 py-2 rounded-lg text-xs font-medium"
+          <div class="mt-3 mx-12 px-3 py-2 sharp text-xs font-medium"
             :style="{ background: 'var(--bg-input)', color: rule.color }">
             💡 {{ t(rule.kmTip, rule.enTip) }}
           </div>

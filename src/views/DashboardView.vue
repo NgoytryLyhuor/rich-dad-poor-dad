@@ -3,7 +3,7 @@
     <!-- Hero -->
     <div class="hero-section">
       <div class="relative z-10">
-        <p class="gold-badge mb-3">BOOK SUMMARY</p>
+        <p class="tag-badge mb-3">BOOK SUMMARY</p>
         <h1 class="text-3xl md:text-5xl font-display font-black leading-tight mb-3">
           {{ t('Rich Dad Poor Dad', 'Rich Dad Poor Dad') }}
         </h1>
@@ -50,7 +50,7 @@
     </div>
 
     <div class="text-center">
-      <router-link to="/assets" class="btn-gold">
+      <router-link to="/assets" class="btn-accent">
         {{ t('ចាប់ផ្តើមរៀន', 'Start Learning') }} &#8594;
       </router-link>
     </div>
