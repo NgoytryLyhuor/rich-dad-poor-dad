@@ -114,13 +114,13 @@ const sections = [
     kmTitle: 'អំពីសៀវភៅនេះ', enTitle: 'About This Book',
     kmQuote: 'សៀវភៅនេះនិយាយអំពីមេរៀនហិរញ្ញវត្ថុដែល Robert Kiyosaki បានរៀនសូត្រពីឪពុកពីរនាក់ — ឪពុកមាន និងឪពុកក្រ។',
     enQuote: 'This book teaches the financial lessons Robert learned from two dads — a rich dad and a poor dad.',
-    kmBody: 'Robert Kiyosaki មានឪពុកពីរនាក់។ ឪពុករបស់គាត់ (Poor Dad) មានការអប់រ់ខ្ពស់ តែគ្មានលុយ។ ឪពុករបស់មិត្តភក្តិ (Rich Dad) មិនបញ្ចប់ថ្នាក់វិទ្យាល័យ តែក្លាយជាអ្នកមាន។ សៀវភៅនេះប្រៀបធៀបរបៀបគិតរបស់ឪពុកពីរនាក់។',
+    kmBody: 'Robert Kiyosaki មានឪពុកពីរនាក់។ ឪពុករបស់គាត់ (Poor Dad) មានការអប់រំខ្ពស់ តែគ្មានលុយ។ ឪពុករបស់មិត្តភក្តិ (Rich Dad) មិនបញ្ចប់ថ្នាក់វិទ្យាល័យ តែក្លាយជាអ្នកមាន។ សៀវភៅនេះប្រៀបធៀបរបៀបគិតរបស់ឪពុកពីរនាក់។',
     enBody: 'Robert had two dads. His biological father (Poor Dad) was highly educated but poor. His friend\'s father (Rich Dad) didn\'t finish high school but became wealthy. The book compares their thinking.',
     points: [
       { km: 'ឪពុកក្រ៖ "រៀនឱ្យខ្ពស់ រួចរកការងារល្អ"', en: 'Poor Dad: "Study hard, get a good job"' },
       { km: 'ឪពុកមាន៖ "រៀនទិញទ្រព្យ រួចបង្កើនចំណូលពីទ្រព្យ"', en: 'Rich Dad: "Learn to buy assets, build passive income"' },
       { km: 'ឪពុកក្រ៖ "លុយមិនសំខាន់ទេ"', en: 'Poor Dad: "Money doesn\'t matter"' },
-      { km: 'ឪពុកមាន៖ "លុយគឺជាថាមវន្ត — វាអនុញ្ញាតឱ្យអ្នកជ្រើសរើស"', en: 'Rich Dad: "Money is power — it gives you choices"' },
+      { km: 'ឪពុកមាន៖ "លុយគឺជាថាមពល — វាផ្តល់ឱ្យអ្នកនូវសេរីភាពក្នុងការជ្រើសរើស"', en: 'Rich Dad: "Money is power — it gives you choices"' },
     ],
   },
   {
@@ -132,7 +132,7 @@ const sections = [
     points: [
       { km: 'មនុស្សក្រធ្វើការសម្រាប់លុយ — ពួកគេខ្លាចបាត់បង់ការងារ', en: 'Poor work for money — they fear losing jobs' },
       { km: 'មនុស្សមានធ្វើឱ្យលុយធ្វើការ — តាមរយៈទ្រព្យ', en: 'Rich make money work — through assets' },
-      { km: 'ភាពខ្លាច និងច្រណែនីយកម្ម គ្រប់គ្រងមនុស្សភាគច្រើន', en: 'Fear and greed control most people' },
+      { km: 'ភាពខ្លាច និងភាពលោភលន់ គ្រប់គ្រងមនុស្សភាគច្រើន', en: 'Fear and greed control most people' },
     ],
     warning: {
       km: 'កំហុស៖ ធ្វើការតែដើម្បីលុយ — មិនគិតពីការបង្កើនចំណូលពីទ្រព្យទេ។',
@@ -140,7 +140,7 @@ const sections = [
     },
   },
   {
-    kmTitle: 'មេរៀនទី២ — ហេតុអ្វីត្រូវរៀនសេដ្ឋកិច្ច', enTitle: 'Lesson 2 — Why Teach Financial Literacy',
+    kmTitle: 'មេរៀនទី២ — ហេតុអ្វីត្រូវរៀនចំណេះដឹងហិរញ្ញវត្ថុ', enTitle: 'Lesson 2 — Why Teach Financial Literacy',
     kmQuote: 'អ្នកមិនត្រូវការចំណូលច្រើនទេ — អ្នកត្រូវការទ្រព្យច្រើន។',
     enQuote: 'You don\'t need high income — you need high assets.',
     kmBody: 'Robert បកស្រាយថា បញ្ហាមិនមែនជាចំណូលទេ — បញ្ហាគឺរបៀបដែលយើងប្រើលុយ។ អ្នកដែលមានចំណូល $200,000/ឆ្នាំ ប៉ុន្តែចំណាយ $200,000 គឺក្រ។ អ្នកដែលមានចំណូល $50,000 ប៉ុន្តែទិញទ្រព្យ $10,000/ឆ្នាំ គឺមាន។',
@@ -160,7 +160,7 @@ const sections = [
     points: [
       { km: 'ទិញភាគហ៊ុន — ចាប់ផ្តើមតូចៗ', en: 'Buy stocks — start small' },
       { km: 'ទិញអចលនទ្រព្យ — ផ្ទះតូចៗសម្រាប់ជួល', en: 'Buy real estate — small rental properties' },
-      { km: 'បង្កើតអាជីវកម្មតូច — side hustle', en: 'Build small businesses — side hustle' },
+      { km: 'បង្កើតអាជីវកម្មតូច — ការងារបន្ថែម', en: 'Build small businesses — side hustle' },
       { km: 'កុំប្រើប្រាក់ទិញបំណុលក្លែងក្លាយជាទ្រព្យ', en: 'Don\'t use money to buy fake assets' },
     ],
   },
@@ -189,10 +189,10 @@ const sections = [
     ],
   },
   {
-    kmTitle: 'មេរៀនទី៦ — រៀនដើម្បីរៀន មិនមែនដើម្បីរកលុយ', enTitle: 'Lesson 6 — Work to Learn, Don\'t Work to Earn',
+    kmTitle: 'មេរៀនទី៦ — ធ្វើការដើម្បីរៀន មិនមែនធ្វើការដើម្បីលុយ', enTitle: 'Lesson 6 — Work to Learn, Don\'t Work to Earn',
     kmQuote: 'រៀនជំនាញថ្មីៗ — មិនមែនគិតតែពីប្រាក់ខែទេ។',
     enQuote: 'Learn new skills — don\'t just focus on salary.',
-    kmBody: 'Robert ណែនាំថា "រៀនដើម្បីរៀន មិនមែនដើម្បីរកលុយ"។ គាត់ណែនាំឱ្យធ្វើការដោយឥតប្រាក់ខែនៅក្នុងអាជីវកម្មដើម្បីរៀនជំនាញ។ ជំនាញគឺជាទ្រព្យដ៏មានតម្លៃបំផុត។',
+    kmBody: 'Robert ណែនាំថា "ធ្វើការដើម្បីរៀន មិនមែនធ្វើការដើម្បីលុយ"។ គាត់ណែនាំឱ្យធ្វើការដោយឥតប្រាក់ខែនៅក្នុងអាជីវកម្មដើម្បីរៀនជំនាញ។ ជំនាញគឺជាទ្រព្យដ៏មានតម្លៃបំផុត។',
     enBody: 'Robert advises "work to learn, not to earn." He suggests working for free in a business to learn skills. Skills are the most valuable assets.',
     points: [
       { km: 'រៀនជំនាញលក់ — វាជាជំនាញដែលរកលុយបានច្រើនបំផុត', en: 'Learn sales — the highest-earning skill' },
@@ -201,17 +201,17 @@ const sections = [
     ],
   },
   {
-    kmTitle: 'មេរៀនទី៧ — ជំនាញដែលត្រូវការ', enTitle: 'Lesson 7 — Overcoming Obstacles',
+    kmTitle: 'មេរៀនទី៧ — ជំនះឧបសគ្គ', enTitle: 'Lesson 7 — Overcoming Obstacles',
     kmQuote: 'ឧបសគ្គគឺជាផ្នែកមួយនៃផ្លូវទៅរកភាពមាន។',
     enQuote: 'Obstacles are part of the road to wealth.',
-    kmBody: 'Robert បកស្រាយឧបសគ្គ ៥យ៉ាង៖ ភាពខ្លាច ការរិះគន់ ភាពអត្មនិយម ភាពស្ទាក់សើច និងការបោះបង់។ គាត់បង្រៀនថា ឧបសគ្គទាំងនេះត្រូវតែដោះស្រាយ — មិនមែនជៀសវាងទេ។',
+    kmBody: 'Robert បកស្រាយឧបសគ្គ ៥យ៉ាង៖ ភាពខ្លាច ការរិះគន់ចំអក ភាពខ្ជិលច្រអូស ទម្លាប់អាក្រក់ និងភាពក្រអឺតក្រទម។ គាត់បង្រៀនថា ឧបសគ្គទាំងនេះត្រូវតែដោះស្រាយ — មិនមែនជៀសវាងទេ។',
     enBody: 'Robert explains 5 obstacles: fear, cynicism, laziness, bad habits, and arrogance. He teaches these must be overcome — not avoided.',
     points: [
-      { km: 'ភាពខ្លាច — ប្រើភាពខ្លាចជាថាមវន្ត មិនមែនជាឧបសគ្គទេ', en: 'Fear — use fear as fuel, not as obstacle' },
-      { km: 'ការរិះគន់ — កុំស្តាប់អ្នកដែលនិយាយថាអ្នកមិនអាច', en: 'Cynicism — don\'t listen to those who say you can\'t' },
-      { km: 'ភាពអត្មនិយម — ទទួលខុសត្រូវលើជីវិតហិរញ្ញវត្ថុរបស់អ្នក', en: 'Laziness — take responsibility for your finances' },
-      { km: 'ទម្លាប់អាក្រក់ — ផ្លាស់ប្តូរទម្លាប់ហិរញ្ញវត្ថុ', en: 'Bad habits — change your financial habits' },
-      { km: 'ភាពអាត្មនិយម — ទទួលស្គាល់កំហុស រួចរៀនសូត្រ', en: 'Arrogance — admit mistakes, then learn' },
+      { km: 'ភាពខ្លាច — ប្រើភាពខ្លាចជាថាមពល មិនមែនជាឧបសគ្គទេ', en: 'Fear — use fear as fuel, not as obstacle' },
+      { km: 'ការរិះគន់ចំអក — កុំស្តាប់អ្នកដែលនិយាយថាអ្នកមិនអាចធ្វើបាន', en: 'Cynicism — don\'t listen to those who say you can\'t' },
+      { km: 'ភាពខ្ជិលច្រអូស — ទទួលខុសត្រូវលើជីវិតហិរញ្ញវត្ថុរបស់អ្នក', en: 'Laziness — take responsibility for your finances' },
+      { km: 'ទម្លាប់អាក្រក់ — ផ្លាស់ប្តូរទម្លាប់ហិរញ្ញវត្ថុរបស់អ្នក', en: 'Bad habits — change your financial habits' },
+      { km: 'ភាពក្រអឺតក្រទម — ទទួលស្គាល់កំហុសរបស់ខ្លួន រួចរៀនសូត្រ', en: 'Arrogance — admit mistakes, then learn' },
     ],
   },
 ]
@@ -219,18 +219,18 @@ const sections = [
 const characters = [
   { kmName: 'Robert Kiyosaki', enName: 'Robert Kiyosaki', kmRole: 'អ្នកនិពន្ធ — សិស្សរបស់ឪពុកពីរនាក់ ដែលបានរៀនសូត្រពីឪពុកមាន និងឪពុកក្រ។', enRole: 'The author — student of two dads who learned from both rich and poor.', color: 'var(--gold)' },
   { kmName: 'Rich Dad', enName: 'Rich Dad', kmRole: 'ឪពុករបស់មិត្តភក្តិ Robert — មិនបញ្ចប់ថ្នាក់វិទ្យាល័យ តែក្លាយជាអ្នកមាន។ បង្រៀនពីទ្រព្យ និងចំណូលពីទ្រព្យ។', enRole: 'Father of Robert\'s friend — didn\'t finish high school but became wealthy. Taught about assets and passive income.', color: '#16a34a' },
-  { kmName: 'Poor Dad', enName: 'Poor Dad', kmRole: 'ឪពុករបស់ Robert — មានការអប់រ់ខ្ពស់ តែគ្មានលុយ។ និយាយថា "រៀនឱ្យខ្ពស់ រួចរកការងារល្អ។"', enRole: 'Robert\'s biological father — highly educated but poor. Said "Study hard, get a good job."', color: '#dc2626' },
-  { kmName: 'Mike', enName: 'Mike', kmRole: 'មិត្តភក្តិរបស់ Robert — សិស្សរបស់ Rich Dad ដូចគ្នា។', enRole: 'Robert\'s friend — fellow student of Rich Dad.', color: '#2563eb' },
+  { kmName: 'Poor Dad', enName: 'Poor Dad', kmRole: 'ឪពុករបស់ Robert — មានការអប់រំខ្ពស់ តែគ្មានលុយ។ និយាយថា "រៀនឱ្យខ្ពស់ រួចរកការងារល្អ។"', enRole: 'Robert\'s biological father — highly educated but poor. Said "Study hard, get a good job."', color: '#dc2626' },
+  { kmName: 'Mike', enName: 'Mike', kmRole: 'មិត្តភក្តិរបស់ Robert — សិស្សរបស់ Rich Dad ជាមួយគ្នា។', enRole: 'Robert\'s friend — fellow student of Rich Dad.', color: '#2563eb' },
 ]
 
 const quotes = [
-  { km: 'ភាពក្រីក្រគឺជាផ្លូវចិត្ត — មិនមែនជាបញ្ហាលុយទេ។', en: 'Poverty is a mindset — not a money problem.' },
+  { km: 'ភាពក្រីក្រគឺជារបៀបគិត — មិនមែនជាបញ្ហាលុយទេ។', en: 'Poverty is a mindset — not a money problem.' },
   { km: 'អ្នកមិនត្រូវការចំណូលច្រើនទេ — អ្នកត្រូវការទ្រព្យច្រើន។', en: 'You don\'t need high income — you need high assets.' },
   { km: 'ផ្ទះគឺជាបំណុល — វាដកលុយចេញពីហោប៉ៅរបស់អ្នក។', en: 'Your house is a liability — it takes money out of your pocket.' },
   { km: 'មនុស្សមានធ្វើឱ្យលុយធ្វើការសម្រាប់ពួកគេ។ មនុស្សក្រធ្វើការសម្រាប់លុយ។', en: 'Rich make money work for them. Poor work for money.' },
-  { km: 'រៀនដើម្បីរៀន មិនមែនដើម្បីរកលុយ។', en: 'Work to learn, not to earn.' },
+  { km: 'ធ្វើការដើម្បីរៀន មិនមែនធ្វើការដើម្បីលុយ។', en: 'Work to learn, not to earn.' },
   { km: 'អ្នកដែលជោគជ័យបំផុតគឺអ្នកដែលបរាជ័យច្រើនបំផុត។', en: 'The most successful people failed the most.' },
-  { km: 'ទ្រព្យគឺជាអ្វីដែលអ្នកមិនអាចឃើញ — តែអ្នកអាចមានអារម្មណ៍បាន។', en: 'Wealth is what you don\'t see — it\'s the assets not bought.' },
+  { km: 'ភាពមានគឺជាអ្វីដែលអ្នកមើលមិនឃើញ — វាជាទ្រព្យដែលមិនត្រូវបានទិញ។', en: 'Wealth is what you don\'t see — it\'s the assets not bought.' },
   { km: 'ការអប់រំហិរញ្ញវត្ថុគឺជាការវិនិយោគដ៏ល្អបំផុត។', en: 'Financial education is the best investment.' },
 ]
 </script>

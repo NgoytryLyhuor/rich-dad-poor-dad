@@ -36,7 +36,7 @@
           {{ t('Poor Dad — ឪពុកក្រ', 'Poor Dad') }}
         </p>
         <p class="text-sm leading-relaxed" :style="{ color: 'var(--text-body)' }">
-          {{ t('ឪពុករបស់ Robert — មានការអប់រ់ខ្ពស់ តែគ្មានលុយ។ គាត់និយាយថា "រៀនឱ្យខ្ពស់ រួចរកការងារល្អ។"', 'Robert\'s biological father — highly educated but poor. He said "Study hard, get a good job."') }}
+          {{ t('ឪពុករបស់ Robert — មានការអប់រំខ្ពស់ តែគ្មានលុយ។ គាត់និយាយថា "រៀនឱ្យខ្ពស់ រួចរកការងារល្អ។"', 'Robert\'s biological father — highly educated but poor. He said "Study hard, get a good job."') }}
         </p>
       </div>
       <div class="card" :style="{ borderColor: 'var(--gold)' }">

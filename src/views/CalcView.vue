@@ -87,7 +87,7 @@ import { useLanguage } from '../composables/useLanguage'
 
 Chart.register(...registerables)
 const { theme, getChartColors } = useTheme()
-const { t } = useLanguage()
+const { t, lang } = useLanguage()
 
 const income = ref(500)
 const assetIncome = ref(100)
@@ -144,8 +144,6 @@ function renderChart() {
   })
 }
 
-const lang = computed(() => { const { lang } = useLanguage(); return lang })
-
 onMounted(renderChart)
-watch([income, assetIncome, debtPayment, years, theme], renderChart)
+watch([income, assetIncome, debtPayment, years, theme, lang], renderChart)
 </script>

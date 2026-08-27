@@ -53,7 +53,7 @@
         {{ t('💡 គន្លឹះសំខាន់', 'KEY INSIGHT') }}
       </p>
       <p class="text-sm leading-relaxed" :style="{ color: 'var(--text-body)' }">
-        {{ t('មនុស្សក្រ ទិញបំណុលយកមកគិតថាជាទ្រព្យ (ផ្ទះ ឡាន)។ មនុស្សមាន ទិញទ្រព្យដែលផលិតចំណូល (ភាគហ៊ុន អចលនទ្រព្យ អាជីវកម្ម)។', 'Poor people buy liabilities thinking they\'re assets (house, car). Rich people buy assets that generate income (stocks, real estate, businesses).') }}
+        {{ t('មនុស្សក្រទិញបំណុល ដោយគិតថាវាជាទ្រព្យ (ផ្ទះ ឡាន)។ មនុស្សមានទិញទ្រព្យដែលបង្កើតចំណូល (ភាគហ៊ុន អចលនទ្រព្យ អាជីវកម្ម)។', 'Poor people buy liabilities thinking they\'re assets (house, car). Rich people buy assets that generate income (stocks, real estate, businesses).') }}
       </p>
     </div>
 

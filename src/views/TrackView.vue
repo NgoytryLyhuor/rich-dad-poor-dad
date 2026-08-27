@@ -50,7 +50,7 @@
       </div>
       <div class="card text-center">
         <p class="section-title">{{ t('ចំណូលពីទ្រព្យ', 'ASSET INCOME') }}</p>
-        <p class="text-2xl font-display font-black mt-1" :style="{ color: 'var(--green)' }">${{ assetIncome }}/mo</p>
+        <p class="text-2xl font-display font-black mt-1" :style="{ color: 'var(--green)' }">${{ assetIncome }}/{{ t('ខែ', 'mo') }}</p>
       </div>
     </div>
 
@@ -80,7 +80,7 @@
             <p class="text-sm font-bold" :style="{ color: 'var(--text-heading)' }">{{ item.name }}</p>
             <p class="text-[10px]" :style="{ color: 'var(--text-label)' }">
               {{ item.type === 'asset' ? t('ទ្រព្យ', 'Asset') : t('បំណុល', 'Liability') }}
-              <template v-if="item.income"> &middot; +${{ item.income }}/mo</template>
+              <template v-if="item.income"> &middot; +${{ item.income }}/{{ t('ខែ', 'mo') }}</template>
             </p>
           </div>
         </div>
@@ -130,7 +130,7 @@ function addItem() {
 }
 
 function deleteItem(id) { items.value = items.value.filter(i => i.id !== id); save() }
-function clearAll() { if (confirm('Clear all?')) { items.value = []; save() } }
+function clearAll() { if (confirm(t('តើអ្នកពិតជាចង់លុបទិន្នន័យទាំងអស់ឬ?', 'Clear all?'))) { items.value = []; save() } }
 
 const chartRef = ref(null)
 let chartInstance = null

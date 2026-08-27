@@ -38,7 +38,7 @@
         {{ t('💡 មេរៀនសំខាន់', 'KEY LESSON') }}
       </p>
       <p class="text-sm leading-relaxed" :style="{ color: 'var(--text-body)' }">
-        {{ t('ភាពក្រីក្រគឺជាផ្លូវចិត្ត — មិនមែនជាបញ្ហាលុយទេ។ ផ្លាស់ប្តូររបៀបគិត ហើយអ្នកនឹងផ្លាស់ប្តូរជីវិត។', 'Poverty is a mindset — not a money problem. Change your thinking and you change your life.') }}
+        {{ t('ភាពក្រីក្រគឺជារបៀបគិត — មិនមែនជាបញ្ហាលុយទេ។ ផ្លាស់ប្តូររបៀបគិត ហើយអ្នកនឹងផ្លាស់ប្តូរជីវិត។', 'Poverty is a mindset — not a money problem. Change your thinking and you change your life.') }}
       </p>
     </div>
 
@@ -64,7 +64,7 @@ const shifts = [
   { kmPoor: 'សន្សំលុយក្នុងធនាគារ', enPoor: 'Save money in the bank',
     kmRich: 'វិនិយោគលុយនៅក្នុងទ្រព្យ', enRich: 'Invest money in assets' },
   { kmPoor: 'លុយមិនសំខាន់ទេ', enPoor: 'Money doesn\'t matter',
-    kmRich: 'លុយគឺជាថាមវន្ត — វាអនុញ្ញាតឱ្យអ្នកជ្រើសរើស', enRich: 'Money is power — it gives you choices' },
+    kmRich: 'លុយគឺជាថាមពល — វាផ្តល់ឱ្យអ្នកនូវសេរីភាពក្នុងការជ្រើសរើស', enRich: 'Money is power — it gives you choices' },
   { kmPoor: 'ខ្ញុំមិនចាប់អារម្មណ៍លើលុយទេ', enPoor: 'I\'m not interested in money',
     kmRich: 'លុយគឺជាមិត្តភក្តិរបស់ខ្ញុំ — ខ្ញុំស្រឡាញ់វា', enRich: 'Money is my friend — I love it' },
   { kmPoor: 'ខ្ញុំខ្លាចបាត់បង់លុយ', enPoor: 'I\'m afraid of losing money',

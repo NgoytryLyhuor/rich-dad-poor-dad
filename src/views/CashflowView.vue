@@ -90,11 +90,11 @@ const quadrants = [
   },
   {
     letter: 'S', color: '#2563eb', bg: 'rgba(37,99,235,0.08)',
-    kmTitle: 'អ្នកឯករភ្ព', enTitle: 'SELF-EMPLOYED',
+    kmTitle: 'អ្នកធ្វើការដោយខ្លួនឯង', enTitle: 'SELF-EMPLOYED',
     kmSub: 'ធ្វើការសម្រាប់ខ្លួនឯង', enSub: 'Works for themselves',
     kmDesc: 'អ្នកមានអាជីវកម្មខ្លួនឯង តែអ្នកនៅតែជាអ្នកធ្វើការ។',
     enDesc: 'You own your business but you still work in it.',
-    kmDetail: 'អ្នកឯករភ្ពមានសេរីភាពច្រើនជាងបុគ្គលិក ប៉ុន្តែពួកគេនៅតែជាអ្នកធ្វើការ។ ប្រសិនបើពួកគេឈប់ធ្វើការ អាជីវកម្មក៏ឈប់ដែរ។ ពួកគេមិនមានប្រព័ន្ធដែលដំណើរការដោយខ្លួនឯងទេ។',
+    kmDetail: 'អ្នកធ្វើការដោយខ្លួនឯងមានសេរីភាពច្រើនជាងបុគ្គលិក ប៉ុន្តែពួកគេនៅតែធ្វើការនៅក្នុងអាជីវកម្មរបស់ពួកគេ។ ប្រសិនបើពួកគេឈប់ធ្វើការ អាជីវកម្មក៏ឈប់ដែរ។ ពួកគេគ្មានប្រព័ន្ធដែលដំណើរការដោយខ្លួនឯងទេ។',
     enDetail: 'Self-employed have more freedom but still work in the business. If they stop, the business stops. No systems running independently.',
     kmNote: '៩% នៃមនុស្សនៅក្នុងស្ថានភាពនេះ', enNote: '9% of people are in this quadrant'
   },
